@@ -1,3 +1,5 @@
+# BlogPost 2 - Lab 1 - AR Project presentation
+
 The second Blogpost is done to document the confirmed idea, as well as the beginning of the development process. 
 
 ### What is the project about?
