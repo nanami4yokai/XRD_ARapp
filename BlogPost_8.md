@@ -10,7 +10,7 @@ Even though not entirely, since that would’ve taken a lot of time, I used roun
 
 For example, card recognition:
 
-![Screenshot_14](https://github.com/user-attachments/assets/7d3b1bca-5542-406d-b38e-ae4b069374f9)
+![Screenshot_9](https://github.com/user-attachments/assets/6b2e84b4-c3e3-4a37-99a2-1b306ee6c537)
 
 I used dictionaries to reference cards to models:
 
@@ -21,6 +21,8 @@ I used dictionaries to reference cards to models:
 ![Screenshot_10](https://github.com/user-attachments/assets/67d7326b-ae0e-4d6f-95f3-f7664e74a719)
 
 Since I implemented functionality of recognising critters by name, it would mean that every naming related to a critter should’ve been the same, and the dictionary helped me omit changing the name of the Scriptable Objects and map out the references. 
+
+![Screenshot_14](https://github.com/user-attachments/assets/7f507e72-ff93-4fc5-af51-5c20be9d0156)
 
 Overall, I encountered a bunch of issues, I struggled to implement recognition and addition to Critterpedia a lot. This is what the Equals() and GetHashCode() methods are for in the Critter class, which were to constantly check and make sure that the same entity (meaning a certain critter) is traveling through all the stages of the game - recognising the card, showing the collected Critter image, adding it to the Critterpedia and sending the data to it, attaching the Critter’s logo to a slot in the Critterpedia and also displaying the correct info card. You can see a bunch of debug logs throughout the whole code because I needed to keep checking every step of the implementation and figure out 100% what is wrong.  
 
